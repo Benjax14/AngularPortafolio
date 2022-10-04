@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
         this.items = [
             {
                 label:'Sobre mi',
-                icon:'pi pi-fw pi-chevron-down',
+                icon:'pi pi-fw',
                 items:[
                     {
                         label:'Educación',
@@ -35,7 +35,7 @@ export class NavbarComponent implements OnInit {
             },
             {
                 label:'Proyectos',
-                icon:'pi pi-fw pi-chevron-down',
+                icon:'pi pi-fw',
                 items:[
                     {
                         label:'Left',

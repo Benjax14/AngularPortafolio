@@ -11,7 +11,8 @@ export class AppComponent implements OnInit {
       {
         header: 'Hola Mundo',
         text: 'Hola Mundo'
-      },      {
+      },
+      {
         header: 'Hola Mundo',
         text: 'Hola Mundo'
       }
