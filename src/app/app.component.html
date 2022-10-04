@@ -1,1 +1,10 @@
 <app-navbar></app-navbar>
+<div class="row">
+    <div class="flex-container">
+        <div class="grid-row-start">
+            <ng-container *ngFor="let item of content">
+                <app-card [content]="item"></app-card>
+            </ng-container>
+        </div>
+    </div>
+</div>
